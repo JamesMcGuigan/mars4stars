@@ -1,0 +1,74 @@
+package mars4stars.unused;
+
+/**************************************************************************
+ *  Bomb.java                                                            *
+ *  Copyright (C) 2004, James McGuigan <james@worldfuturecouncil.org>     *
+ *                                                                        *
+ *  This program is free software; you can redistrubute it and/or modify  *
+ *  it under the terms of the GUN General Public Licence as published by  *
+ *  the Free Software Foundation; either version 2, or (at your option)   *
+ *  any later version                                                     *
+ *                                                                        *
+ *  This program is distrabuted in the hope that it will be useful,       *
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of        *
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the          *
+ *  GNU General Public Licence for more details.                          *
+ *                                                                        *
+ **************************************************************************/
+
+
+
+// Class Bomb
+// 
+public class Bomb extends Component {
+  // Fields
+  // 
+  protected int minKills;
+  // 
+  protected double percentageKills;
+  // 
+  protected int instalationsKills;
+  // Methods
+  // Constructors
+  // Empty Constructor
+  public Bomb ( ) { }
+  // Accessor Methods
+  // Get the value of minKills
+  // 
+  // @return the value of minKills
+  protected int getMinKills (  ) {
+    return this.minKills;
+  }
+  // Set the value of minKills
+  // 
+  // 
+  protected void setMinKills ( int value  ) {
+    this.minKills = value;
+  }
+  // Get the value of percentageKills
+  // 
+  // @return the value of percentageKills
+  protected double getPercentageKills (  ) {
+    return this.percentageKills;
+  }
+  // Set the value of percentageKills
+  // 
+  // 
+  protected void setPercentageKills ( double value  ) {
+    this.percentageKills = value;
+  }
+  // Get the value of instalationsKills
+  // 
+  // @return the value of instalationsKills
+  protected int getInstalationsKills (  ) {
+    return this.instalationsKills;
+  }
+  // Set the value of instalationsKills
+  // 
+  // 
+  protected void setInstalationsKills ( int value  ) {
+    this.instalationsKills = value;
+  }
+  // Operations
+}
+
